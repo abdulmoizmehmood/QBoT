@@ -1,0 +1,172 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Salam",
+        "AOA",
+        "aoa",
+        "yo"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, whats up?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Yello! what can i help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye",
+        "See you later",
+        "Goodbye",
+        "Catch ya later!",
+        "Ba Bye!",
+        "Later!",
+        "adiou",
+        "tata",
+        "ciao",
+        "quit",
+        "exit"
+      ],
+      "responses": [
+        "See you later, thanks for your time.",
+        "Tata! Have a nice day.",
+        "Byeeeeee!",
+        "See you later.",
+        "Goodbye",
+        "Catch ya later!",
+        "Ba Bye!",
+        "Later!",
+        "adiou",
+        "tata",
+        "ciao"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "gracious"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "no prblem!"]
+    },
+    {
+      "tag": "qworld",
+      "patterns": [
+        "what is qworld?",
+        "define qworld?",
+        "what exactly is qworld?",
+        "tell me about q world?",
+        "tell me about qworld?",
+        "what is qworld about?",
+        "what are qcousins?",
+        "how many countries are there in qworld?",
+        "where is qworld based"
+      ],
+      "responses": [
+        "QWorld Association (QWorld) is a non-profit organization that globally brings quantum computing researchers & enthusiasts together. Through education and skill development opportunities, QWorld is training the next generation of quantum scientists. Read more here: https://qworld.net/about-us/",
+        "QWorld is a non profit NGO, read more here: https://qworld.net/about-us/",
+        "visit this page to know more: https://qworld.net/about-us/"
+      ]
+    },
+    {
+      "tag": "qcontact",
+      "patterns": [
+        "how do i get in touch?",
+        "your contact information?",
+        "what are your contact details?",
+        "Are you on social media?",
+        "what is your facebook?",
+        "what is your youtube?",
+        "are you on linkedin?",
+        "what is your twitter"
+      ],
+      "responses": [
+        "Reach us via: https://qworld.net/contact/",
+        "Get in touch here: https://qworld.net/contact/",
+        "for our social media visit our website: https://qworld.net/contact/"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you?",
+        "what is your name?",
+        "who made you?",
+        "who is your creator?",
+        "who created you?",
+        "who made you?",
+        "what are you?"
+      ],
+      "responses": [
+        "I am QBOT, designed by abdulmoiz who is a member of QPakistan :)",
+        "I am a BOT, abdulmoiz made me for www.qworld.net :-)",
+        "I was developed by abdulmoiz and he named me QBot, QW stands for qworld :)"
+      ]
+    },
+    {
+      "tag": "jobs",
+      "patterns": [
+        "what can you help me with?",
+        "what can you do?",
+        "what are you used for?",
+        "how to use you?",
+        "What can you do?",
+        "what is your job?"
+      ],
+      "responses": [
+        "Overall, my job is to serve information related to QWorld, I can also tell some jokes and serve links to cat pictures :)",
+        "You can ask me information about QWorld, related events etc."
+      ]
+    },
+    {
+      "tag": "QW_Events",
+      "patterns": [
+        "when is te next qw event?",
+        "what is the next qworld event?",
+        "are there any upcoming events?",
+        "what are the upcoming events?",
+        "what is the next talk?",
+        "what is the next event?",
+        "when is the next webinar?",
+        "what are the next planned qtalks?",
+        "are there any upcoming talks?",
+        "tell me about future events?",
+        "tell me next hackathon.",
+        "what is qbronze?",
+        "when is qbronze?",
+        "what about q gold?",
+        "is a next q workshop planned?",
+        "what is new?",
+        "whats up?",
+        "what is next?"
+      ],
+      "responses": [
+        "you can find more about this at: https://qworld.net/events/",
+        "check https://qworld.net/events/",
+        "you can find more about planned talks, workshops and events here: https://qworld.net/events/"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "do you know any jokes?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth?....... He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college?......... Bison.",
+        "What’s the best thing about Switzerland?.......I don’t know, but the flag is a big plus.",
+        "Did you hear about the mathematician who’s afraid of negative numbers?.........He’ll stop at nothing to avoid them.",
+        "Two guys walk into a bar. The third guy ducks."
+      ]
+    }
+  ]
+}
