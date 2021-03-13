@@ -13,29 +13,29 @@ Simple chatbot for qworld.net. This repository contains both the 1st crude disco
 
 ### Install PyTorch and dependencies
 
-To install pytorch suited to your system follow the official guide [official website](https://pytorch.org/).
+To install pytorch suited to your system follow the [official website](https://pytorch.org/).
 
-## QBoT Commands Discord Version
+## QBoT Commands: Discord Version
 
-General Commands:
-!OQS - for study session details.
+### General Commands:
+- !OQS - for study session details.
 
-QBase Commands:
-!qbase  <term>   - definition for a quantum term or concept.
-!qb_add <term> : <def>  - add  a definition to the QBase.
-!qb_update <term> : <def>  - update definition.
-!qb_del <term> -- delete a definition from the database.
+### QBase Commands:
+- !qbase  <term>   - definition for a quantum term or concept.
+- !qb_add <term> : <def>  - add  a definition to the QBase.
+- !qb_update <term> : <def>  - update definition.
+- !qb_del <term> -- delete a definition from the database.
 
-Misc Commands:
-!hey - greeting.
-!kitty - random cat jpegs. (this works for both discord and pytorch implementations)
+### Misc Commands:
+- !hey - greeting.
+- !kitty - random cat jpegs. (this works for both discord and pytorch implementations)
 
 
-## QBoT Commands Pytorch Version
+## QBoT Commands: Pytorch Version
 A look inside the intents.json file is self explanatory.
 
-Misc Commands: 
-!kitty or !cat - gives a link to the random cat pictures from an api.
+### Misc Commands: 
+- !kitty or !cat - gives a link to the random cat pictures from an api.
 
 
 ## Customization of Pytorch Implementation
