@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import Tk, Text, Label, Scrollbar, Entry, Button, DISABLED, END, NORMAL
 from chat_gui import get_response, bot_name
 
 clr_panel = '#404040'
