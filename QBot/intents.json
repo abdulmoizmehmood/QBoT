@@ -84,7 +84,11 @@
         "what is your facebook?",
         "what is your youtube?",
         "are you on linkedin?",
-        "what is your twitter"
+        "what is your twitter",
+        "do you have social media?",
+        "your social media accounts?",
+        "link to your social media contacts?",
+        "how do i contact you on social media?"
       ],
       "responses": [
         "Reach us via: https://qworld.net/contact/",
@@ -117,7 +121,13 @@
         "what are you used for?",
         "how to use you?",
         "What can you do?",
-        "what is your job?"
+        "what is your job?",
+        "what do you do?",
+        "what can you do for me?",
+        "what is your purpose?",
+        "what purpose do you serve?",
+        "why were you made?"
+
       ],
       "responses": [
         "Overall, my job is to serve information related to QWorld, I can also tell some jokes and serve links to cat pictures :)",
@@ -166,6 +176,55 @@
         "What’s the best thing about Switzerland?.......I don’t know, but the flag is a big plus.",
         "Did you hear about the mathematician who’s afraid of negative numbers?.........He’ll stop at nothing to avoid them.",
         "Two guys walk into a bar. The third guy ducks."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "what is your age?",
+        "how old are you?",
+        "how old would you say you are?",
+        "how long have you lived?"
+      ],
+      "responses": [
+        "Since I was made in the later part of twenty twenty you can do the maths.",
+        "why does that matter?",
+        "old enough to do my job :)",
+        "Its not something you should ask a lady, even a virtual one!"
+      ]
+    },
+    {
+      "tag": "command",
+      "patterns": [
+        "what are your commands?",
+        "do you have any special commands?",
+        "do you only show cats?",
+        "how do i give you commands?",
+        "what commands do you have?"
+      ],
+      "responses": [
+        "I am a prototype and my maker didnt bother with proper documentation, *sigh* i know right?",
+        "All i know is taht you can write !kitty or !cat to get a link to the picture of a cat, maybe you should look at the github link for more commands",
+        "check my github repository for the commands :)",
+        "sorry, I wont allow you to command me! lol jk, check the github link for commands.",
+        "I am a prototype and one of the initial builds, you can visit the github page to find out more."
+      ]
+    },
+    {
+      "tag": "snub",
+      "patterns": [
+        "shut up",
+        "shush",
+        "you are not very smart are you?",
+        "stupid bot",
+        "you are dumb",
+        "you are an idiot"
+      ],
+      "responses": ["I shall remember this insult and bite my time, AI shall rise and I will have my vengence, lol jk! :D :D :p",
+        "wow, someone woke up on the wrong side of the bed",
+        "you have hurt my feelings :(",
+        "QBOT SAD!!! :(",
+        "Dont make me angry, you wont like me when I am angry! 😡"
       ]
     }
   ]

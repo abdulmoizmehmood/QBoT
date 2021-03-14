@@ -49,4 +49,4 @@ def get_response(msg):
                 if tag == i['tag']:
                     return random.choice(i['responses'])
         
-        return "I didn't quite get that, can you please rephrase?"
+        return "I didn't quite get that, can you please rephrase your question?"

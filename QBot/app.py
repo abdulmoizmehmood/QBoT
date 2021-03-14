@@ -1,6 +1,22 @@
 from tkinter import Tk, Text, Label, Scrollbar, Entry, Button, DISABLED, END, NORMAL
 from chat_gui import get_response, bot_name
 
+### TTS
+from playsound import playsound as ps
+from gtts import gTTS as tts
+import os, re
+
+def my_tts(aud_txt):
+    if aud_txt.startswith('http') == True:
+        say = 'Here is a link to a cat picture!, you shoud copy this link and paste in the browser to view the picture.'
+    else:
+        say = re.sub(r'\w+:\/{2}[\d\w-]+(\.[\d\w-]+)*(?:(?:\/[^\s/]*))*', 'the link on the screen', aud_txt)
+    tts(text=say, lang='en', slow=False).save('say.mp3')
+    ps('say.mp3')
+    os.remove("say.mp3")
+#####
+
+
 clr_panel = '#404040'
 clr_bg = '#282828'
 clr_txt = '#ffffff'
@@ -66,12 +82,19 @@ class ChatApplication:
         self.text_widget.insert(END, usermsg)
         self.text_widget.configure(state=DISABLED)
 
-        botmsg = f'{bot_name}: {get_response(msg)}\n\n'
+        bm = get_response(msg)
+        botmsg = f'{bot_name}: {bm}\n\n'
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, botmsg)
         self.text_widget.configure(state=DISABLED)
-
         self.text_widget.see(END)
+        #TTS
+        my_tts(bm)
+
+        
+
+
+
 
 
 
