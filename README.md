@@ -9,7 +9,7 @@ Simple chatbot for qworld.net. This repository contains both the 1st crude disco
 - The pytorch verson uses nltk, Feed Forward Neural net with 2 hidden layers and is based on the article (originally with tensor flow) : [https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077). This pytorch implementation closely follows the videos by [https://www.youtube.com/channel/UCbXgNpp0jedKWcQiULLbDTA](https://www.youtube.com/channel/UCbXgNpp0jedKWcQiULLbDTA).
 - The pytorch version has two interfaces, run chat.py to run the chatbot inside the terminal and for the GUI (Tkinter) version run chat_gui.py.
 - The GUI version also has a Text to speech function based on gTTS.
-- A demo of the chatbot GUI can be seen below:
+- A demo of the chatbot GUI can be seen below:<br />
 [![QBoT Pytorch Version GUI With TTS Demo](http://img.youtube.com/vi/cK9NTT45Kgo/0.jpg)](https://youtu.be/cK9NTT45Kgo "QBoT Pytorch Version GUI With TTS Demo")
 
 ## Installation for Pytorch Implementation
